@@ -1,5 +1,6 @@
 import { ScrollReveal } from "./ScrollReveal";
 import { CheckCircle } from "lucide-react";
+import chapter07Img from "@/assets/chapter07-illustration.png";
 
 const benefits = [
   "Mais eficiente na gestão do seu escritório",
@@ -17,6 +18,10 @@ const Chapter07 = () => (
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-10 relative z-10">
           O futuro — IA + Arquitetura + Crissair
         </h2>
+      </ScrollReveal>
+
+      <ScrollReveal delay={0.05}>
+        <img src={chapter07Img} alt="Futuro do Arquiteto 4.0" className="w-full max-w-md mx-auto mb-10 rounded-xl opacity-80" />
       </ScrollReveal>
 
       <ScrollReveal delay={0.1}>

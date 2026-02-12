@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ScrollReveal } from "./ScrollReveal";
 import { Copy, Check } from "lucide-react";
+import chapter05Img from "@/assets/chapter05-illustration.png";
 
 const prompts = [
   {
@@ -51,6 +52,10 @@ const Chapter05 = () => (
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-14 relative z-10">
           3 prompts prontos para copiar e colar
         </h2>
+      </ScrollReveal>
+
+      <ScrollReveal delay={0.05}>
+        <img src={chapter05Img} alt="Prompts prontos para copiar" className="w-full max-w-sm mx-auto mb-12 rounded-xl opacity-80" />
       </ScrollReveal>
 
       <div className="space-y-6">

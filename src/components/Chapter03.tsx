@@ -1,4 +1,5 @@
 import { ScrollReveal } from "./ScrollReveal";
+import chapter03Img from "@/assets/chapter03-illustration.png";
 
 const rows = [
   { dor: "Sobrecarga administrativa", ferramentas: "ChatGPT, Claude, Make", solucao: "Gera documentos profissionais em segundos" },
@@ -23,6 +24,10 @@ const Chapter03 = () => (
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-10 relative z-10">
           As 12 dores do arquiteto e como a IA resolve
         </h2>
+      </ScrollReveal>
+
+      <ScrollReveal delay={0.05}>
+        <img src={chapter03Img} alt="Resolvendo dores do arquiteto" className="w-full max-w-md mx-auto mb-10 rounded-xl opacity-80" />
       </ScrollReveal>
 
       <ScrollReveal delay={0.2}>
