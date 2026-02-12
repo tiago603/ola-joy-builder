@@ -12,16 +12,13 @@ const benefits = [
 
 const Chapter07 = () => (
   <section id="cap07" className="section-light py-20 md:py-28">
-    <div className="max-w-3xl mx-auto px-6 relative">
+    <div className="max-w-3xl mx-auto px-6 relative overflow-hidden">
+      <img src={chapter07Img} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] max-w-lg opacity-[0.06] pointer-events-none select-none" />
       <span className="chapter-number">07</span>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-10 relative z-10">
           O futuro — IA + Arquitetura + Crissair
         </h2>
-      </ScrollReveal>
-
-      <ScrollReveal delay={0.05}>
-        <img src={chapter07Img} alt="Futuro do Arquiteto 4.0" className="w-full max-w-md mx-auto mb-10 rounded-xl opacity-80" />
       </ScrollReveal>
 
       <ScrollReveal delay={0.1}>

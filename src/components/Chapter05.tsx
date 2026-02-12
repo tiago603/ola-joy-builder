@@ -46,16 +46,13 @@ const PromptBlock = ({ title, text }: { title: string; text: string }) => {
 
 const Chapter05 = () => (
   <section id="cap05" className="section-light py-20 md:py-28">
-    <div className="max-w-3xl mx-auto px-6 relative">
+    <div className="max-w-3xl mx-auto px-6 relative overflow-hidden">
+      <img src={chapter05Img} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] max-w-lg opacity-[0.06] pointer-events-none select-none" />
       <span className="chapter-number">05</span>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-14 relative z-10">
           3 prompts prontos para copiar e colar
         </h2>
-      </ScrollReveal>
-
-      <ScrollReveal delay={0.05}>
-        <img src={chapter05Img} alt="Prompts prontos para copiar" className="w-full max-w-sm mx-auto mb-12 rounded-xl opacity-80" />
       </ScrollReveal>
 
       <div className="space-y-6">
