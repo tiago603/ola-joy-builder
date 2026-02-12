@@ -46,13 +46,15 @@ const Header = () => {
       {/* Fixed Header */}
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          scrolled ? "bg-secondary/95 backdrop-blur-md shadow-lg" : "bg-transparent"
+          scrolled ? "bg-secondary/95 backdrop-blur-md shadow-lg" : "bg-transparent pointer-events-none"
         }`}
       >
         <div className="flex items-center justify-between px-6 py-3">
-          <CrissairLogo light />
+          <div className={`transition-opacity duration-300 ${scrolled ? "opacity-100" : "opacity-0"}`}>
+            <CrissairLogo light />
+          </div>
           <button
-            className="lg:hidden text-primary-foreground"
+            className="lg:hidden text-primary-foreground pointer-events-auto"
             onClick={() => setMobileOpen(!mobileOpen)}
             aria-label="Toggle menu"
           >
