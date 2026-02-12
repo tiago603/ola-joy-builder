@@ -1,5 +1,5 @@
 import { ScrollReveal } from "./ScrollReveal";
-
+import chapter03Cover from "@/assets/chapter03-cover.jpg";
 
 const rows = [
   { dor: "Sobrecarga administrativa", ferramentas: "ChatGPT, Claude, Make", solucao: "Gera documentos profissionais em segundos" },
@@ -20,6 +20,9 @@ const Chapter03 = () => (
   <section id="cap03" className="section-light py-20 md:py-28">
     <div className="max-w-5xl mx-auto px-6">
       <span className="chapter-number">03</span>
+      <ScrollReveal>
+        <img src={chapter03Cover} alt="Arquiteto com IA organizando documentos" className="w-full max-w-3xl mx-auto rounded-xl mb-10 shadow-lg" />
+      </ScrollReveal>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-10 relative z-10">
           As 12 dores do arquiteto e como a IA resolve

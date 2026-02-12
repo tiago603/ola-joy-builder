@@ -1,5 +1,5 @@
 import { ScrollReveal } from "./ScrollReveal";
-
+import chapter06Cover from "@/assets/chapter06-cover.jpg";
 
 const rows = [
   { tarefa: "Memorial descritivo", antes: "3-5 horas", depois: "5-10 min", impacto: "-90% tempo" },
@@ -18,6 +18,9 @@ const Chapter06 = () => (
   >
     <div className="max-w-5xl mx-auto px-6">
       <span className="chapter-number text-secondary-foreground/10">06</span>
+      <ScrollReveal>
+        <img src={chapter06Cover} alt="Antes e depois com IA na arquitetura" className="w-full max-w-3xl mx-auto rounded-xl mb-10 shadow-lg" />
+      </ScrollReveal>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-secondary-foreground mb-14 relative z-10">
           Antes e depois com IA

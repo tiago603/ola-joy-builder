@@ -1,5 +1,5 @@
 import { ScrollReveal } from "./ScrollReveal";
-
+import chapter04Cover from "@/assets/chapter04-cover.jpg";
 
 const tools = [
   {
@@ -47,6 +47,9 @@ const Chapter04 = () => (
   >
     <div className="max-w-3xl mx-auto px-6">
       <span className="chapter-number text-secondary-foreground/10">04</span>
+      <ScrollReveal>
+        <img src={chapter04Cover} alt="Ícones de ferramentas de IA" className="w-full rounded-xl mb-10 shadow-lg" />
+      </ScrollReveal>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-secondary-foreground mb-14 relative z-10">
           5 ferramentas gratuitas para começar hoje
