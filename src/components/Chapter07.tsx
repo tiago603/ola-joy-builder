@@ -48,7 +48,7 @@ const Chapter07 = () => (
 
       <ScrollReveal delay={0.3}>
         <p className="text-foreground/80 text-base md:text-lg leading-relaxed mb-6">
-          A Crissair acredita nesse futuro. Há mais de 35 anos, estamos ao lado dos arquitetos e designers que projetam os ambientes mais sofisticados do Brasil. Nossos eletrodomésticos estão presentes nas cozinhas que você cria, nos projetos que você assina, nas experiências que você proporciona aos seus clientes.
+          A Crissair acredita nesse futuro. Há 35 anos, estamos ao lado dos arquitetos e designers que projetam os ambientes mais sofisticados do Brasil. Nossos eletrodomésticos estão presentes nas cozinhas que você cria, nos projetos que você assina, nas experiências que você proporciona aos seus clientes.
         </p>
       </ScrollReveal>
 
