@@ -3,16 +3,13 @@ import chapter01Img from "@/assets/chapter01-illustration.png";
 
 const Chapter01 = () => (
   <section id="cap01" className="section-light py-20 md:py-28">
-    <div className="max-w-3xl mx-auto px-6 relative">
+    <div className="max-w-3xl mx-auto px-6 relative overflow-hidden">
+      <img src={chapter01Img} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] max-w-lg opacity-[0.06] pointer-events-none select-none" />
       <span className="chapter-number">01</span>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-10 relative z-10">
           Por que a IA importa para você, arquiteto?
         </h2>
-      </ScrollReveal>
-
-      <ScrollReveal delay={0.05}>
-        <img src={chapter01Img} alt="IA e inovação para arquitetos" className="w-full max-w-md mx-auto mb-10 rounded-xl opacity-80" />
       </ScrollReveal>
 
       <ScrollReveal delay={0.1}>
