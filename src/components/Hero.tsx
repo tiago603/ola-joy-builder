@@ -1,20 +1,8 @@
-import { useState } from "react";
 import { ScrollReveal } from "./ScrollReveal";
-import { ArrowDown, Download, Loader2 } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import crissairLogo from "@/assets/crissair-logo.png";
-import { generatePDF } from "@/lib/generatePDF";
 
 const Hero = () => {
-  const [generating, setGenerating] = useState(false);
-
-  const handleDownload = async () => {
-    setGenerating(true);
-    try {
-      await generatePDF();
-    } finally {
-      setGenerating(false);
-    }
-  };
 
   return (
     <section
@@ -49,25 +37,12 @@ const Hero = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.9}>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button
-              onClick={() => document.getElementById("sumario")?.scrollIntoView({ behavior: "smooth" })}
-              className="cta-button text-lg gap-2"
-            >
-              Começar a leitura <ArrowDown size={18} />
-            </button>
-            <button
-              onClick={handleDownload}
-              disabled={generating}
-              className="cta-button text-lg gap-2"
-            >
-              {generating ? (
-                <>Gerando PDF… <Loader2 size={18} className="animate-spin" /></>
-              ) : (
-                <>Baixar PDF <Download size={18} /></>
-              )}
-            </button>
-          </div>
+          <button
+            onClick={() => document.getElementById("sumario")?.scrollIntoView({ behavior: "smooth" })}
+            className="cta-button text-lg gap-2"
+          >
+            Começar a leitura <ArrowDown size={18} />
+          </button>
         </ScrollReveal>
 
         <ScrollReveal delay={1.1}>
