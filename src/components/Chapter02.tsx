@@ -1,6 +1,6 @@
 import { ScrollReveal } from "./ScrollReveal";
 import { FileText, Image, Zap } from "lucide-react";
-import chapter02Img from "@/assets/chapter02-illustration.png";
+
 
 const cards = [
   {
@@ -35,8 +35,7 @@ const Chapter02 = () => (
     className="py-20 md:py-28"
     style={{ background: "linear-gradient(180deg, hsl(0 0% 10%) 0%, hsl(0 0% 14%) 100%)" }}
   >
-    <div className="max-w-6xl mx-auto px-6 relative overflow-hidden">
-      <img src={chapter02Img} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] max-w-lg opacity-[0.06] pointer-events-none select-none" />
+    <div className="max-w-6xl mx-auto px-6">
       <span className="chapter-number text-secondary-foreground/10">02</span>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-secondary-foreground mb-14 relative z-10">

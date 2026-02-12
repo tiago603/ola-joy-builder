@@ -1,5 +1,5 @@
 import { ScrollReveal } from "./ScrollReveal";
-import chapter03Img from "@/assets/chapter03-illustration.png";
+
 
 const rows = [
   { dor: "Sobrecarga administrativa", ferramentas: "ChatGPT, Claude, Make", solucao: "Gera documentos profissionais em segundos" },
@@ -18,8 +18,7 @@ const rows = [
 
 const Chapter03 = () => (
   <section id="cap03" className="section-light py-20 md:py-28">
-    <div className="max-w-5xl mx-auto px-6 relative overflow-hidden">
-      <img src={chapter03Img} alt="" className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] max-w-lg opacity-[0.06] pointer-events-none select-none" />
+    <div className="max-w-5xl mx-auto px-6">
       <span className="chapter-number">03</span>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-10 relative z-10">
