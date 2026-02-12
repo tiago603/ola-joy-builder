@@ -1,5 +1,6 @@
 import { ScrollReveal } from "./ScrollReveal";
 import CrissairLogo from "./CrissairLogo";
+import { Instagram } from "lucide-react";
 
 const Footer = () => (
   <footer
@@ -25,7 +26,7 @@ const Footer = () => (
       </ScrollReveal>
 
       <ScrollReveal delay={0.3}>
-        <CrissairLogo light className="mb-8 scale-125" />
+        <CrissairLogo light className="mb-8 scale-150 md:scale-[1.75]" />
       </ScrollReveal>
 
       <ScrollReveal delay={0.4}>
@@ -35,14 +36,20 @@ const Footer = () => (
       </ScrollReveal>
 
       <ScrollReveal delay={0.5}>
-        <a href="https://crissair.com.br" target="_blank" rel="noopener noreferrer" className="cta-button text-lg mb-8 inline-flex">
-          Inscreva-se no Workshop
+        <a
+          href="https://instagram.com/crissair_eletros"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-secondary-foreground/70 hover:text-primary transition-colors text-lg"
+        >
+          <Instagram size={24} />
+          <span>@crissair_eletros</span>
         </a>
       </ScrollReveal>
 
       <ScrollReveal delay={0.6}>
         <p className="text-secondary-foreground/40 text-sm mt-10 tracking-wide">
-          Exporevestir 2026 • crissair.com.br
+          crissair.com.br
         </p>
       </ScrollReveal>
     </div>

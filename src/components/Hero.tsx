@@ -50,7 +50,7 @@ const Hero = () => {
 
         <ScrollReveal delay={1.1}>
           <p className="text-secondary-foreground/40 text-sm mt-16 tracking-wide">
-            Apresentado por <span className="font-semibold text-secondary-foreground/60">CRISSAIR</span> • Exporevestir 2026
+            Apresentado por <span className="font-semibold text-secondary-foreground/60">CRISSAIR</span>
           </p>
         </ScrollReveal>
       </div>
