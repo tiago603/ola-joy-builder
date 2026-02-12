@@ -12,7 +12,7 @@ const benefits = [
 
 const Chapter07 = () => (
   <section id="cap07" className="section-light py-20 md:py-28">
-    <div className="max-w-3xl mx-auto px-6">
+    <div className="max-w-3xl mx-auto px-6 relative">
       <span className="chapter-number">07</span>
       <ScrollReveal>
         <img src={chapter07Cover} alt="Arquiteto do futuro com IA" className="w-full rounded-xl mb-10 shadow-lg" />
