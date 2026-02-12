@@ -21,7 +21,7 @@ const Chapter07 = () => (
 
       <ScrollReveal delay={0.1}>
         <p className="text-foreground/80 text-base md:text-lg leading-relaxed mb-8">
-          O Workshop presencial da Crissair na Exporevestir 2026 é a oportunidade perfeita para dar seus primeiros passos com IA de forma guiada e prática. Veja o que você vai encontrar:
+          O Workshop presencial da Crissair é a oportunidade perfeita para dar seus primeiros passos com IA de forma guiada e prática. Veja o que você vai encontrar:
         </p>
       </ScrollReveal>
 
@@ -35,15 +35,6 @@ const Chapter07 = () => (
           </ScrollReveal>
         ))}
       </div>
-
-      <ScrollReveal delay={0.6}>
-        <div className="rounded-xl border-2 border-primary/30 bg-card p-8">
-          <h3 className="font-display font-bold text-xl text-primary mb-3">Crissair Studio AI</h3>
-          <p className="text-foreground/70 text-base leading-relaxed">
-            Em breve: <strong className="text-foreground">Crissair Studio AI</strong> — gerador de memoriais com produtos Crissair, assistente de especificação 24/7 e melhorador de renders. O futuro da arquitetura inteligente está sendo construído agora.
-          </p>
-        </div>
-      </ScrollReveal>
     </div>
   </section>
 );
