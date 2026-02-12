@@ -10,11 +10,6 @@ const Hero = () => {
         background: "linear-gradient(135deg, hsl(0 0% 10%) 0%, hsl(0 0% 18%) 50%, hsl(0 0% 10%) 100%)",
       }}
     >
-      {/* Decorative corners */}
-      <div className="decorative-corner top-left" />
-      <div className="decorative-corner top-right" />
-      <div className="decorative-corner bottom-left" />
-      <div className="decorative-corner bottom-right" />
 
       <div className="text-center px-6 max-w-3xl mx-auto relative z-10">
         <ScrollReveal delay={0.1}>
