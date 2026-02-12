@@ -15,7 +15,7 @@ const Hero = () => {
 
       <div className="text-center px-6 max-w-3xl mx-auto relative z-10">
         <ScrollReveal delay={0.1}>
-          <span className="label-badge mb-8 inline-block">E-BOOK EXCLUSIVO</span>
+          <span className="label-badge mb-8 inline-block">GUIA EXCLUSIVO</span>
         </ScrollReveal>
 
         <ScrollReveal delay={0.3}>
