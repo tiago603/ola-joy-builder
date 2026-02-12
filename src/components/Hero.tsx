@@ -19,9 +19,9 @@ const Hero = () => {
   return (
     <section
       id="capa"
-      className="relative min-h-screen flex items-center justify-center section-dark overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        background: "linear-gradient(135deg, hsl(0 0% 10%) 0%, hsl(0 0% 18%) 50%, hsl(0 0% 10%) 100%)",
+        background: "linear-gradient(135deg, hsl(0 0% 95%) 0%, hsl(0 0% 88%) 50%, hsl(0 0% 95%) 100%)",
       }}
     >
 
@@ -31,7 +31,7 @@ const Hero = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.3}>
-          <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-secondary-foreground leading-tight mb-4">
+          <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-secondary leading-tight mb-4">
             IA para Arquitetos
           </h1>
         </ScrollReveal>
@@ -43,7 +43,7 @@ const Hero = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={0.7}>
-          <p className="text-secondary-foreground/70 text-lg max-w-xl mx-auto mb-12 leading-relaxed">
+          <p className="text-secondary/60 text-lg max-w-xl mx-auto mb-12 leading-relaxed">
             Um guia prático para transformar seu dia a dia com inteligência artificial — sem programação, sem complicação.
           </p>
         </ScrollReveal>
@@ -72,8 +72,8 @@ const Hero = () => {
 
         <ScrollReveal delay={1.1}>
           <div className="mt-16 flex flex-col items-center gap-2">
-            <span className="text-secondary-foreground/40 text-sm tracking-wide">Apresentado por</span>
-            <img src={crissairLogo} alt="Crissair" className="h-10 brightness-0 invert opacity-60" />
+            <span className="text-secondary/40 text-sm tracking-wide">Apresentado por</span>
+            <img src={crissairLogo} alt="Crissair" className="h-20 opacity-70" />
           </div>
         </ScrollReveal>
       </div>
