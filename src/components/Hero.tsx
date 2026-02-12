@@ -45,9 +45,10 @@ const Hero = () => {
         </ScrollReveal>
 
         <ScrollReveal delay={1.1}>
-          <p className="text-secondary-foreground/40 text-sm mt-16 tracking-wide flex items-center justify-center gap-3">
-            Apresentado por <img src={crissairLogo} alt="Crissair" className="h-12 brightness-0 invert opacity-60 inline-block relative -top-[1px]" />
-          </p>
+          <div className="mt-16 flex flex-col items-center gap-2">
+            <span className="text-secondary-foreground/40 text-sm tracking-wide">Apresentado por</span>
+            <img src={crissairLogo} alt="Crissair" className="h-10 brightness-0 invert opacity-60" />
+          </div>
         </ScrollReveal>
       </div>
     </section>
