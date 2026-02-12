@@ -1,4 +1,5 @@
 import { ScrollReveal } from "./ScrollReveal";
+import chapter01Img from "@/assets/chapter01-illustration.png";
 
 const Chapter01 = () => (
   <section id="cap01" className="section-light py-20 md:py-28">
@@ -8,6 +9,10 @@ const Chapter01 = () => (
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-10 relative z-10">
           Por que a IA importa para você, arquiteto?
         </h2>
+      </ScrollReveal>
+
+      <ScrollReveal delay={0.05}>
+        <img src={chapter01Img} alt="IA e inovação para arquitetos" className="w-full max-w-md mx-auto mb-10 rounded-xl opacity-80" />
       </ScrollReveal>
 
       <ScrollReveal delay={0.1}>

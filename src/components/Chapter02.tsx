@@ -1,5 +1,6 @@
 import { ScrollReveal } from "./ScrollReveal";
 import { FileText, Image, Zap } from "lucide-react";
+import chapter02Img from "@/assets/chapter02-illustration.png";
 
 const cards = [
   {
@@ -40,6 +41,10 @@ const Chapter02 = () => (
         <h2 className="font-display font-bold text-2xl md:text-3xl text-secondary-foreground mb-14 relative z-10">
           O que é IA na prática para o arquiteto?
         </h2>
+      </ScrollReveal>
+
+      <ScrollReveal delay={0.05}>
+        <img src={chapter02Img} alt="IA textual, visual e automação" className="w-full max-w-lg mx-auto mb-12 rounded-xl opacity-80" />
       </ScrollReveal>
 
       <div className="grid md:grid-cols-3 gap-6">
