@@ -59,7 +59,7 @@ const Hero = () => {
             <button
               onClick={handleDownload}
               disabled={generating}
-              className="cta-button text-lg gap-2 !bg-secondary-foreground/10 !border-secondary-foreground/30 hover:!bg-secondary-foreground/20"
+              className="cta-button text-lg gap-2"
             >
               {generating ? (
                 <>Gerando PDF… <Loader2 size={18} className="animate-spin" /></>
