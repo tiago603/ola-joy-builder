@@ -104,14 +104,12 @@
   .chapter-number {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 6rem;
     line-height: 1;
-    color: hsl(var(--primary));
+    color: transparent;
+    -webkit-text-stroke: 2px hsl(var(--primary));
     display: block;
     margin-bottom: 1rem;
-    position: relative;
-    top: auto;
-    left: auto;
   }
   .label-badge {
     @apply inline-block px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] rounded-md;
