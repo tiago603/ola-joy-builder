@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ScrollReveal } from "./ScrollReveal";
 import { Copy, Check } from "lucide-react";
-
+import chapter05Cover from "@/assets/chapter05-cover.jpg";
 
 const prompts = [
   {
@@ -48,6 +48,9 @@ const Chapter05 = () => (
   <section id="cap05" className="section-light py-20 md:py-28">
     <div className="max-w-3xl mx-auto px-6">
       <span className="chapter-number">05</span>
+      <ScrollReveal>
+        <img src={chapter05Cover} alt="Arquiteto usando prompts de IA" className="w-full rounded-xl mb-10 shadow-lg" />
+      </ScrollReveal>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-14 relative z-10">
           3 prompts prontos para copiar e colar

@@ -1,10 +1,13 @@
 import { ScrollReveal } from "./ScrollReveal";
-
+import chapter01Cover from "@/assets/chapter01-cover.jpg";
 
 const Chapter01 = () => (
   <section id="cap01" className="section-light py-20 md:py-28">
     <div className="max-w-3xl mx-auto px-6">
       <span className="chapter-number">01</span>
+      <ScrollReveal>
+        <img src={chapter01Cover} alt="Arquiteto com tablet mostrando projeto" className="w-full rounded-xl mb-10 shadow-lg" />
+      </ScrollReveal>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-foreground mb-10 relative z-10">
           Por que a IA importa para você, arquiteto?

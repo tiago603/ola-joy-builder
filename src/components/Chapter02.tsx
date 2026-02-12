@@ -1,6 +1,6 @@
 import { ScrollReveal } from "./ScrollReveal";
 import { FileText, Image, Zap } from "lucide-react";
-
+import chapter02Cover from "@/assets/chapter02-cover.jpg";
 
 const cards = [
   {
@@ -37,6 +37,9 @@ const Chapter02 = () => (
   >
     <div className="max-w-6xl mx-auto px-6">
       <span className="chapter-number text-secondary-foreground/10">02</span>
+      <ScrollReveal>
+        <img src={chapter02Cover} alt="Mesa de arquiteto com interface de IA" className="w-full max-w-3xl mx-auto rounded-xl mb-10 shadow-lg" />
+      </ScrollReveal>
       <ScrollReveal>
         <h2 className="font-display font-bold text-2xl md:text-3xl text-secondary-foreground mb-14 relative z-10">
           O que é IA na prática para o arquiteto?
