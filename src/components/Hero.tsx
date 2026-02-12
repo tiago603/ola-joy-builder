@@ -1,0 +1,61 @@
+import { ScrollReveal } from "./ScrollReveal";
+import { ArrowDown } from "lucide-react";
+
+const Hero = () => {
+  return (
+    <section
+      id="capa"
+      className="relative min-h-screen flex items-center justify-center section-dark overflow-hidden"
+      style={{
+        background: "linear-gradient(135deg, hsl(0 0% 10%) 0%, hsl(0 0% 18%) 50%, hsl(0 0% 10%) 100%)",
+      }}
+    >
+      {/* Decorative corners */}
+      <div className="decorative-corner top-left" />
+      <div className="decorative-corner top-right" />
+      <div className="decorative-corner bottom-left" />
+      <div className="decorative-corner bottom-right" />
+
+      <div className="text-center px-6 max-w-3xl mx-auto relative z-10">
+        <ScrollReveal delay={0.1}>
+          <span className="label-badge mb-8 inline-block">E-BOOK EXCLUSIVO</span>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.3}>
+          <h1 className="font-display font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-secondary-foreground leading-tight mb-4">
+            IA para Arquitetos
+          </h1>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.5}>
+          <p className="font-display font-semibold text-2xl sm:text-3xl md:text-4xl text-primary mb-8">
+            Seu Primeiro Passo
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.7}>
+          <p className="text-secondary-foreground/70 text-lg max-w-xl mx-auto mb-12 leading-relaxed">
+            Um guia prático para transformar seu dia a dia com inteligência artificial — sem programação, sem complicação.
+          </p>
+        </ScrollReveal>
+
+        <ScrollReveal delay={0.9}>
+          <button
+            onClick={() => document.getElementById("sumario")?.scrollIntoView({ behavior: "smooth" })}
+            className="cta-button text-lg gap-2"
+          >
+            Começar a leitura <ArrowDown size={18} />
+          </button>
+        </ScrollReveal>
+
+        <ScrollReveal delay={1.1}>
+          <p className="text-secondary-foreground/40 text-sm mt-16 tracking-wide">
+            Apresentado por <span className="font-semibold text-secondary-foreground/60">CRISSAIR</span> • Exporevestir 2026
+          </p>
+        </ScrollReveal>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
