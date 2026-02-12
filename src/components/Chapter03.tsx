@@ -18,7 +18,7 @@ const rows = [
 
 const Chapter03 = () => (
   <section id="cap03" className="section-light py-20 md:py-28">
-    <div className="max-w-5xl mx-auto px-6">
+    <div className="max-w-5xl mx-auto px-6 relative">
       <span className="chapter-number">03</span>
       <ScrollReveal>
         <img src={chapter03Cover} alt="Arquiteto com IA organizando documentos" className="w-full max-w-3xl mx-auto rounded-xl mb-10 shadow-lg" />

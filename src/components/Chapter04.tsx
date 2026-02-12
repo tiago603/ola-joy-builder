@@ -45,7 +45,7 @@ const Chapter04 = () => (
     className="py-20 md:py-28"
     style={{ background: "linear-gradient(180deg, hsl(0 0% 10%) 0%, hsl(0 0% 14%) 100%)" }}
   >
-    <div className="max-w-3xl mx-auto px-6">
+    <div className="max-w-3xl mx-auto px-6 relative">
       <span className="chapter-number text-secondary-foreground/10">04</span>
       <ScrollReveal>
         <img src={chapter04Cover} alt="Ícones de ferramentas de IA" className="w-full rounded-xl mb-10 shadow-lg" />

@@ -3,7 +3,7 @@ import chapter01Cover from "@/assets/chapter01-cover.jpg";
 
 const Chapter01 = () => (
   <section id="cap01" className="section-light py-20 md:py-28">
-    <div className="max-w-3xl mx-auto px-6">
+    <div className="max-w-3xl mx-auto px-6 relative">
       <span className="chapter-number">01</span>
       <ScrollReveal>
         <img src={chapter01Cover} alt="Arquiteto com tablet mostrando projeto" className="w-full rounded-xl mb-10 shadow-lg" />
