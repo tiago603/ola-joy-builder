@@ -1,19 +1,12 @@
+import crissairLogo from "@/assets/crissair-logo.png";
+
 const CrissairLogo = ({ className = "", light = false }: { className?: string; light?: boolean }) => (
-  <div className={`flex flex-col items-center ${className}`}>
-    <span
-      className={`font-display font-extrabold tracking-[0.25em] text-xl ${
-        light ? "text-primary-foreground" : "text-foreground"
-      }`}
-    >
-      CRISSAIR
-    </span>
-    <span
-      className={`font-sans font-light text-xs tracking-[0.15em] ${
-        light ? "text-primary-foreground/60" : "text-muted-foreground"
-      }`}
-    >
-      Home Electro
-    </span>
+  <div className={`flex items-center justify-center ${className}`}>
+    <img
+      src={crissairLogo}
+      alt="Crissair Home Electro"
+      className={`h-8 md:h-10 w-auto ${light ? "brightness-0 invert" : ""}`}
+    />
   </div>
 );
 
