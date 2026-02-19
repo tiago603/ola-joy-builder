@@ -26,7 +26,7 @@ const Footer = () => (
       </ScrollReveal>
 
       <ScrollReveal delay={0.3}>
-        <CrissairLogo light className="mb-8 scale-150 md:scale-[1.75]" />
+        <CrissairLogo light className="mb-8 scale-[3] md:scale-[3.5]" />
       </ScrollReveal>
 
       <ScrollReveal delay={0.4}>
