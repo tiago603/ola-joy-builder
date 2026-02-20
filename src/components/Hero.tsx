@@ -49,7 +49,7 @@ const Hero = () => {
           <div className="mt-16 flex flex-col items-center gap-2">
             <span className="text-secondary/40 text-sm tracking-wide">Apresentado por</span>
             <img src={crissairDesde1991} alt="Crissair - Desde 1991" className="h-40 mix-blend-multiply" />
-            <p className="text-secondary/50 text-sm tracking-widest font-display mt-2">Excelência que se sente, confiança que permanece.</p>
+            <p className="text-secondary/50 text-sm tracking-widest italic font-serif mt-2">Excelência que se sente, confiança que permanece.</p>
           </div>
         </ScrollReveal>
       </div>
