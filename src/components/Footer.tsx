@@ -1,5 +1,5 @@
 import { ScrollReveal } from "./ScrollReveal";
-import CrissairLogo from "./CrissairLogo";
+import crissair35anos from "@/assets/crissair-35anos.png";
 import { Instagram } from "lucide-react";
 
 const Footer = () => (
@@ -26,7 +26,7 @@ const Footer = () => (
       </ScrollReveal>
 
       <ScrollReveal delay={0.3}>
-        <CrissairLogo light className="mb-8 scale-[3] md:scale-[3.5]" />
+        <img src={crissair35anos} alt="Crissair 35 anos" className="h-32 md:h-40 mx-auto mb-8" />
       </ScrollReveal>
 
       <ScrollReveal delay={0.4}>
