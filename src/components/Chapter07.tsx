@@ -39,7 +39,7 @@ const Chapter07 = () => (
         <blockquote className="border-l-4 border-primary pl-6 py-4 my-10 bg-primary/5 rounded-r-lg">
           <p className="text-foreground/90 text-lg md:text-xl italic font-display leading-relaxed">
             "O Arquiteto 4.0 não compete com a tecnologia.<br />
-            Ele Evolui com ela ao seu lado."
+            Ele evolui com ela ao seu lado."
           </p>
         </blockquote>
       </ScrollReveal>
