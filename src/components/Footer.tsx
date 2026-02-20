@@ -31,7 +31,7 @@ const Footer = () => (
 
       <ScrollReveal delay={0.4}>
         <p className="italic text-secondary-foreground/50 mb-10">
-          Elegância e inovação para momentos que encantam.
+          Onde viver bem começa em casa.
         </p>
       </ScrollReveal>
 
