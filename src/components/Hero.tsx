@@ -1,6 +1,6 @@
 import { ScrollReveal } from "./ScrollReveal";
 import { ArrowDown } from "lucide-react";
-import crissairDesde1991 from "@/assets/crissair-desde1991.jpg";
+import crissairDesde1991 from "@/assets/crissair-desde1991.png";
 
 const Hero = () => {
 
@@ -48,7 +48,7 @@ const Hero = () => {
         <ScrollReveal delay={1.1}>
           <div className="mt-16 flex flex-col items-center gap-2">
             <span className="text-secondary/40 text-sm tracking-wide">Apresentado por</span>
-            <img src={crissairDesde1991} alt="Crissair - Desde 1991" className="h-40 opacity-70 mix-blend-multiply" />
+            <img src={crissairDesde1991} alt="Crissair - Desde 1991" className="h-40 opacity-70" />
           </div>
         </ScrollReveal>
       </div>
